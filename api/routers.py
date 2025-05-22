@@ -5,7 +5,7 @@ HWC = HWC_Project()
 
 router = APIRouter(
     prefix = "", # Set the prefix of the router
-    tags = [""], set the tag of the router
+    tags = [""], # Set the tag of the router
     responses = {404: {"description": "Not Found"}}, #set the 404 response
 ) # Initialize the router
 
@@ -16,6 +16,14 @@ async def get_all_projects():
     return data
 
 @router.get('viewer/{id}') 
+async def get(id):
+    list = HWC.getProject(id)
+    data = {}
+    return data
+
+
+
+@router.get('admin/{id}') 
 async def get(id):
     list = HWC.getProject(id)
     data = {}
