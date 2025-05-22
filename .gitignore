@@ -1,0 +1,9 @@
+# Ignore files related to API Keys
+api/.env
+
+$ Ignore Mac system files
+.DS_store
+.-.DS_store
+
+# Ignore SWIFT CODE folder
+SWIFT CODE/.vercel
