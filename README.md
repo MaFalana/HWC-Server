@@ -16,6 +16,8 @@ Throughout the development of the `HWC Backend Server API`, several valuable les
 
 - **Vercel Edge Functions**:
 
+Azure Cosmos DB
+
 ## Compiling
 
 
