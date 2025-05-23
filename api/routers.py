@@ -1,7 +1,9 @@
+import pymongo
 from fastapi import APIRouter # Import ApiRouter class from fastapi
-from api.ProjectManager import HWC_Project
+from api.ProjectManager import HWC_Project, MongoDB_Manager
 
 HWC = HWC_Project()
+MongoDB = MongoDB_Manager()
 
 router = APIRouter(
     prefix = "", # Set the prefix of the router
