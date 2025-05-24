@@ -30,7 +30,7 @@ The `LEDGER° API` has a lot of potential for further enhancements and features.
 
 Inspiration, code snippets, etc.
 
-- [Potree]([https://api.mangadex.org/docs/swagger.html](https://github.com/potree/potree)
+- [Potree](https://github.com/potree/potree)
 
 - [Consumet](https://docs.consumet.org)
 

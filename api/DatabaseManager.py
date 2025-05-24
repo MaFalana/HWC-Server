@@ -24,7 +24,7 @@ class MongoDB(DatabaseManager):
         self.client = MongoClient(connection)
         self.db = self.client[db_name]
         print(f'Connected to {db_name} database') 
-        self.project = self.db['Project'] # Get the Project collection from the database
+        self.project = self.db['Projects'] # Get the Project collection from the database
 
     def query(self, collection_name, query):
         collection = self.db[collection_name]

@@ -3,7 +3,7 @@ from fastapi import APIRouter # Import ApiRouter class from fastapi
 from api.ServerManager import HWC_Project
 
 from api.DatabaseManager import MongoDB # Import classes from DatabaseManager.py
-MongoDB = MongoDB()
+MongoDB = MongoDB("HWC")
 
 HWC = HWC_Project()
 
