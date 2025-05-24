@@ -71,3 +71,8 @@ class MongoDB(DatabaseManager):
     def exists(self, collection_name, query): # Checks if a document exists in the database, return boolean
         collection = self.db[collection_name]
         return collection.find_one(query) != None
+
+
+class PostgreSQL(DatabaseManager):
+    def __init__(self, db_name):
+        super().__init__(db_name)
